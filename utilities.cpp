@@ -77,3 +77,9 @@ xyzFloat & xyzFloat::operator/=(float const divisor)
     z /= divisor;
     return *this;
 }
+
+void printByte(char byte) {
+  printf("0b");
+  for (int i = 7; i >= 0; --i)
+    printf("%d", (byte >> i) & 1);
+}

@@ -21,4 +21,6 @@ struct xyzFloat{
     xyzFloat & operator/=(float const divisor);
 };
 
+void printByte(char byte);
+
 #endif
