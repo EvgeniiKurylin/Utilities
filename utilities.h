@@ -1,6 +1,8 @@
 #ifndef UTILITIES_H
 #define UTILITIES_H
 
+#include "mbed.h"
+
 struct xyzFloat{
     float x;
     float y;
